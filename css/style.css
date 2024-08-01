@@ -158,6 +158,24 @@ section{
   padding:20px;
 }
 
+.listoflinks a{
+  display:inline-block;
+  transition:0.5s;
+  color:teal;
+  font-weight:600;
+  text-decoration: underline;
+}
+
+.listoflinks p{
+  display:inline-block;
+  color:black;
+  font-weight:600;
+}
+
+.listoflinks a:hover{
+  color:rgb(0, 175, 175);
+}
+
 /* Utilities */
 
 .container{
@@ -170,6 +188,17 @@ section{
   max-width:800px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.container-xl{
+  max-width:800px;
+  margin: 10px auto;
+  padding: 40px 40px;
+  background-color: white;
+  border-style:outset;
+  border-color:#d8d8d8;
+  border-radius:10px;
+  border-width:6px;
 }
 
 .btn{
