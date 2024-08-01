@@ -176,6 +176,48 @@ section{
   color:rgb(0, 175, 175);
 }
 
+.education .nyu img{
+  width:70px;
+  display:inline-block;
+}
+
+.education .bxsci img{
+  width:70px;
+  display:inline-block;
+  border-radius:35px;
+  border-style: solid;
+  border-width:1px;
+}
+
+.schools{
+  margin-top:20px;
+}
+
+.education h2{
+  display:inline-block;
+}
+
+.education .title{
+  display:flex;
+  align-items: center;
+  margin-bottom:15px;
+}
+
+.education h2{
+  font-size:17px;
+  font-weight:600;
+  margin-left:15px;
+}
+
+.education p{
+  font-style:italic;
+}
+
+.education .nyu,
+.education .bxsci{
+  margin:35px auto;
+}
+
 /* Utilities */
 
 .container{
